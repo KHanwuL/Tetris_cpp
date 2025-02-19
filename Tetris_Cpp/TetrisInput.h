@@ -7,22 +7,22 @@
 void InputKey() {
     if (_kbhit()) {
         switch (_getch()) {
-        case 'w':
+        case 'w':   //블럭 바로 내리기
 
             break;
-        case 'a':
+		case 'a':   //왼쪽으로 한 칸 이동
 
             break;
-        case 's':
+		case 's':   //아래로 한 칸 이동
 
             break;
-        case 'd':
+		case 'd':   //오른쪽으로 한 칸 이동
 
             break;
-        case 'q':
+		case 'q':   //반시계 방향으로 회전
 
             break;
-        case 'e':
+        case 'e':   //시계 방향으로 회전
 
             break;
         }

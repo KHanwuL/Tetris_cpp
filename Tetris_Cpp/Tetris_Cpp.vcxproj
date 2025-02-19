@@ -24,6 +24,7 @@
     <ProjectGuid>{3645a2dd-1c36-4177-9c3c-35a90e328827}</ProjectGuid>
     <RootNamespace>TetrisCpp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Tetris_cpp</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -131,7 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TetrisBlock.h" />
-    <ClInclude Include="TetrisDisplay.h" />
+    <ClInclude Include="TetrisGame.h" />
     <ClInclude Include="TetrisInput.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

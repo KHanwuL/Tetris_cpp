@@ -1,14 +1,8 @@
-#include <Windows.h>
-#include "TetrisInput.h"
-#include "TetrisDisplay.h"
+#include "TetrisGame.h"
 
 int main()
 {
-	while (true)
-	{
-		InputKey();
-		
-	}
+	TetrisGame();
 
 	return 0;
 }
